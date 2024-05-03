@@ -349,28 +349,44 @@ h2{
 }
 
 .cat-card h6{
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 1em;
     text-transform: capitalize;
 }
-
-.cat-card:nth-of-type(2) {
-    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.2) 100%);
+/* lunch */
+.cat-card:nth-last-of-type(2) {
+    background: linear-gradient(180deg, rgba(215, 218, 44, 0) 0%, rgba(215, 218, 44, 0.2) 100%);
 }
-
+/* dessert */
 .cat-card:nth-last-of-type(3){
     background: linear-gradient(180deg, rgba(204,38,27, 0) 0%, rgba(204,38,27, 0.2) 100%);
 }
-
+/* meat */
 .cat-card:nth-last-of-type(4){
     background: linear-gradient(180deg, rgba(240,158,0, 0) 0%, rgba(240,158,0, 0.2) 100%);
 }
-
-.cat-card:nth-last-of-type(5){
-    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.2) 100%);
+/* vegan */
+.cat-card:nth-last-of-type(5) {
+    background: linear-gradient(180deg, rgba(67, 223, 47, 0) 0%, rgba(67, 223, 47, 0.2) 100%);
 }
-
+/* breakfast */
 .cat-card:nth-last-of-type(6){
-    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.2) 100%);
+    background: linear-gradient(180deg, rgba(241, 167, 6, 0) 0%, rgba(241, 167, 6, 0.2) 100%);
+}
+.cat-card img{
+    object-fit: cover;
+    max-width:110px;
+    /*dont support firefox*/
+    -webkit-box-reflect: below 0px liner-gradient(transparent, transparent);
+}
+.cat-card:hover,
+.card:hover,
+.instagram-cards a:hover{
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
 }
 /* end category */
