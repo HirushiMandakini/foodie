@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cook recipies</title>
+    <script src="./js.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="row container">
+        <a href="#" class="logo">
+            <img id="logo" src="icons/mcdonalds.png">
+        </a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="primary-links row">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+            <ul class="secondory-links row">
+                <li><a href="#">
+                    <img id="sec-link-icon" src="icons/facebook-app-symbol.png"/>
+                </a></li>
+                <li><a href="#">
+                    <img id="sec-link-icon"src="icons/instagram.png"/>
+                </a></li>
+                <li><a href="#">
+                    <img id="sec-link-icon" src="icons/twitter.png"/>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Navigation -->
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container row">
+            <div class="hero-content">
+                <div class="content">
+                    <div class="Recipe row"><img id="notice" src="images/clipboard.png" alt="Hot Recipe">Hot Recipes</div>
+                    <h1>Spicy Delicious Chicken Wings</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+                    </p>
+                    <div class="time row">
+                        <div class="row">
+                            <img id="time" src="icons/stopwatch.png" alt="time">
+                            <p>30 minutes</p>
+                </div>
+                <div class="row">
+                    <img id="chicken" src="icons/lunch.png" alt="chicken">
+                    <p>chicken</p>
+                </div>
+                    </div> 
+                <div class="profile-btn row">
+                    <div class="profile row">
+                        <div class="p-image row"><img id="profile" src="images/john smith.jpg"></div>
+                        <div class="column">
+                            <h6>John Smith</h6>
+                            <p>15 March 2024</p>
+                        </div>
+                    </div>
+                    <div class="hero-btn row">View recepies
+                        <img id="play" src="icons/play-button.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+    
+    <!-- category -->
+    <section class="category container">
+       <div class="category-title row">
+        <h2>Categories</h2>
+        <a href="#" class="category-btn">view all categories</a>
+       </div>
+       <div class="category-card columns">
+            <a href="#" class="cat-card">
+                <img src="images/breakfast.png">
+                <h6>Breakfast</h6>
+            </a>
+            <a href="#" class="cat-card">
+                <img src="images/vegan.png">
+                <h6>Vegan</h6>
+            </a>
+            <a href="#" class="cat-card">
+                <img src="images/meat.png">
+                <h6>Meat</h6>
+            </a>
+            <a href="#" class="cat-card">
+                <img src="images/cake.png">
+                <h6>Dessert</h6>
+            </a>
+            <a href="#" class="cat-card">
+                <img src="images/lunch (2).png">
+                <h6>Lunch</h6>
+            </a>
+            <a href="#" class="cat-card">
+                <img src="images/chocolate.png">
+                <h6>Chocolate</h6>
+            </a>
+       </div> 
+    </section>
+    <!-- End category -->
+
+    <!-- recepies -->
+    <section class="recepies container">
+        <div class="section-title">
+            <h2>Simple And Tasty recipies</h2>
+            <p>fuvhjrfvuijhrfuvhrufvrheufiheifhefhceufheushuehduewhfuerhfurehfurhuvrhfvrhvurhvurhvuhuvhfuvh</p>
+        </div>
+        <div class="recepies-card columns">
+            <a href="#" class="card">
+                <img src="images/cheese burger.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/roast chicken.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/pasta.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/spagghetti.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/pancake.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/pizza.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/lasagna.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+    <!-- End recepies -->
+
+    <!-- learn -->
+    <section class="learn row container">
+        <div class="learn-content">
+            <div>
+                <h2>Everyone Can Be A Chef In Thier Own Kitchen</h2>
+                <p>lorem dvfbgtnbnhyyhnuymumhn fbfdvdfvdsvdvfdgb fbfgbfgnbgfnhgngbbgf b gfbgfbvdzsdzcsdsfd s</p>
+                <a href="#" class="learn-btn">learn more</a>
+            </div>
+            <div class="learn-img row">
+                <img src="images/learning.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- End learn -->
+
+    <!-- instagram -->
+    <section class="instagram">
+        <div class="container">
+            <div class="section-title">
+                <h2>Check Our @Foodieland On Instagram</h2>
+                <p>lorem dvrttbgbgbghnhgnhmnhmmmhnfdsfdsfdscx x fdgfdgdggfdgdg  dsncfuidhvuvbguvbugfhvufdjviujvufdjckdsjcisdcisdcjdicjducudhuidhvcufhvufidvhiufdvhiduhvdfuvhfuivhufdhvuifdhv</p>
+            </div>
+            <div class="instagram-cards column">
+                <a href="#"><img src="images/insta1.jpg"></a>
+                <a href="#"><img src="images/insta2.jpg"></a>
+                <a href="#"><img src="images/insta3.jpg"></a>
+                <a href="#"><img src="images/insta4.jpg"></a>
+            </div>
+            <a href="#" class="insta-btn row">
+             visit our Instagram
+             <img src="icons/instagram.png">   
+            </a>
+        </div>
+    </section>
+    <!-- End instagram -->
+
+    <!-- try -->
+    <section class="try container">
+        <div class="try-content-row">
+            <h2>Try to delicious recipe to make your day.</h2>
+            <p>loewm dfcefcerimircirdncn vfvfdvfdvdv</p>
+        </div>
+        <div class="try-card-columns">
+            <a href="#" class="card">
+                <img src="images/cheese burger.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/roast chicken.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/pasta.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/spagghetti.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/pancake.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/pizza.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+
+            <a href="#" class="card">
+                <img src="images/lasagna.jpg">
+                <h5>Big and juicy beef cheeseburger</h5>
+                <div class="time row">
+                    <div class="row">
+                        <img src="icons/stopwatch.png" alt="time">
+                        <p>30 minutes</p>
+                    </div>
+                    <div class="row">
+                        <img src="icons/lunch.png" alt="chicken">
+                        <p>chicken</p>
+                    </div>
+                </div>
+                <!-- like row -->
+                <div class="like row active">
+                    <img src="images/heart.png">
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- end try -->
+
+    <!-- subscribe  -->
+    <section class="subscribe row container">
+        <div class="section title">
+            <h2>Deliciousness To Your Inbox</h2>
+            <p>lorem ipsum dsncfuidhvuvbguvbugfhvufdjviujvufdjckdsjcisdcisdcjdicjducudhuidhvcufhvufidvhiufdvhiduhvdfuvhfuivhufdhvuifdhv</p>
+        </div>
+        <div class="subscribe-input row">
+            <div class="row">
+                <input type="email" name="" id="" placeholder="Your email address...">
+                <a href="#" class="sub-btn">Subscribe</a>
+            </div>
+        </div>
+    </section>
+    <!-- end subscribe -->
+
+    <!-- footer -->
+    <section class="container">
+        <div class="footer-content row">
+            <div>
+            <a href="#" class="logo">
+                <img src="icons/mcdonalds.png">
+            </a>
+            <p>lorem dfhcrdhvfudhvfidgvfdivfdrvrid</p>
+        </div>
+        <ul class="primary-links row">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+        </div>
+        <hr>
+        <div class="footer links-row">
+            <p class="copy-rights">&copy; 2022.All right reserved</p>
+            <ul class="secondory-links row">
+                <li><a href="#">
+                    <img src="icons/facebook-app-symbol.png"
+                </a></li>
+                <li><a href="#">
+                    <img src="icons/instagram.png"
+                </a></li>
+                <li><a href="#">
+                    <img src="icons/twitter.png"
+                </a></li>
+            </ul>
+
+        </div>
+    </section>
+    <!-- end footer -->
+</body>
+</html>
