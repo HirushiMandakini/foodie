@@ -136,10 +136,10 @@ nav a:hover,
     -o-border-radius: 50px 0px 0px 50px;
 }
 .content{
-    max-width: 50%;
+    max-width: 40%;
 }
 .hero .container {
-    background: url(images/hot\ recepies.jpg) var(--c1-4--) right center / contain no-repeat ;
+    background: url(images/fried-meat-with-vegetable-spiral-sausage-wooden-desk.jpg) var(--c1-4--) right center / contain no-repeat ;
     overflow: hidden;
     border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -307,6 +307,7 @@ h2{
     font-weight: 600;
     font-size: clamp(30px,5vw,50px);
     text-transform: capitalize;
+    text-align: center;
 }
 
 .category-title a{
@@ -323,7 +324,10 @@ h2{
     -o-border-radius: 15px;
 }
 
-.category-title a:hover{
+.category-title a:hover,
+.hero-btn:hover,
+.learn-btn:hover,
+.insta-btn:hover{
     background: var(--c1-3--);
     color: var(--c1-1--);
     box-shadow: 3px 3px 6px var(--c1-6--);
@@ -399,13 +403,15 @@ h2{
     text-align: center;
     max-width: 900px;
     margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .section-title p{
     font-size: 16px;
     padding: 1em 0;
 }
 
-.recepies-card{
+.recepies-card, .instagram-cards, .try-cards{
    grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); 
    justify-content: center;
    gap: 2em;
@@ -508,3 +514,77 @@ h2{
     gap: 2em; /* Adjust the value to set the desired gap size */
 }
 /* end recepies */
+
+/* start learn */
+.learn>*{
+    flex: 1 1 25em;
+}
+.learn p{
+    padding: 2em 0; 
+}
+.learn a{
+    margin-top: 2em;
+}
+.learn h2,p{
+    text-align: left;
+}
+.learn-img {
+    max-width: 1200px;
+    max-height: 600px;
+    margin-left: 50%;
+    margin-top: -330px;
+}
+.learn1{
+    max-width: 700px;
+
+}
+.learn-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* end learn */
+
+/* instagram */
+/* .instagram{
+    background: var(--c1-5--);
+    padding: 2em 0 ;
+    margin: 2em 0;
+   
+}
+.insta-btn{
+    max-width: 250px;
+    max-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.instaBtn{
+    align-items: center;
+} */
+.instagram {
+    background-color: var(--c1-4--);
+    padding: 2em 0;
+    margin: 2em 0;
+   
+}
+
+/* Instagram button container */
+.instaBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Instagram button */
+.insta-btn {
+    max-width: 250px;
+    max-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* end instagram */
