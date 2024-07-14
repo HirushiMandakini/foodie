@@ -327,7 +327,8 @@ h2{
 .category-title a:hover,
 .hero-btn:hover,
 .learn-btn:hover,
-.insta-btn:hover{
+.insta-btn:hover,
+.sub-btn:hover{
     background: var(--c1-3--);
     color: var(--c1-1--);
     box-shadow: 3px 3px 6px var(--c1-6--);
@@ -643,12 +644,14 @@ h2{
 /* end try */
 
 /* start subscribe */
-.subscribe{
+.sub{
+    flex-wrap: wrap;
     background: url(images/pexels-lum3n-44775-1028599.jpg),var(--c1-4--);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
-    padding: 2em;
+    padding: 2em ;
+    padding-top: 20px;
     margin: 2em auto;
     align-items: center;
     justify-content: center;
@@ -658,14 +661,24 @@ h2{
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     min-height: 60vh;
+    width: 2000px;
 }
-
-.section-title h2,p{
+.section-title{
     text-align: center;
     justify-content: center;
+    padding: 2em;
 }
+.section-title h2,p{
+    text-align: center;
+}
+.subscribe-input{
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+  
+}
+
 .subscribe-input .row{
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background: var(--c1-1--);
@@ -677,11 +690,10 @@ h2{
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
-
 .subscribe-input input{
-    width: 100%;
     border: 0;
     outline: 0;
+    width: 100%;
     background: var(--c1-1--);
 }
 /* end subscribe */
