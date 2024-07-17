@@ -70,34 +70,34 @@ nav{
     gap: 2em;
 }
 
-nav ul{
+nav ul,.container ul{
     align-items: center;
     gap: 2em;
+    margin-right: 0px;
 }
 .primary-links{
     margin: auto;
 }
-
+.secondory-links ul{
+    margin-left: 0px;
+}
 nav a, .footer-content ul a{
     font-weight: 500;
     font-size: 16px;
 }
-
 nav a:hover,
 .footer-content ul a:hover,
 .secondory-links.row :hover,
-.footer links-row ul a:hover{
+.footer-links-row ul a:hover{
     color: var(--c1-3--);
     fill: var(--c1-3--);
 }
-
 #sec-link-icon {
     max-width: 20px;
 }
 #logo{
     max-width: 60px;
 }
-
 /* end navigation */
 
 /* herosection  */
@@ -697,3 +697,41 @@ h2{
     background: var(--c1-1--);
 }
 /* end subscribe */
+
+/* start footer section */
+.footer{
+    fill: var(--c1-2--);
+    padding: 2em;
+}
+.footer-content{
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em 0;
+}
+.footer-content p{
+    padding: 1em 0;
+}
+.footer-content hr{
+    color: rgba(0,0,0,0.1);
+}
+.footer-link-row{
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.copy-rights{
+    margin: auto;
+}
+.footer-links-row ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: right;
+}
+
+
+/* end footer section */
